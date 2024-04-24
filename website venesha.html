@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Perpustakaan Lummiere</title>
+<style>
+  /* Inline Style Sheet */
+  body {
+    background-color: #ffcccc; /* Warna latar belakang */
+    font-family: Arial, sans-serif;
+  }
+  /* Internal Style Sheet */
+  .content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  /* External Style Sheet */
+  .pastel {
+    background-color: #ffcc99; /* Warna latar belakang */
+    color: #333;
+  }
+</style>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="content">
+  <h1 style="text-align: center;">Perpustakaan Lummiere</h1>
+  <!-- Halaman Perpustakaan Oxford -->
+  <section id="oxford" class="pastel">
+    <h2>Perpustakaan Oxford</h2>
+    <div>
+      <a href="https://library.ox.ac.uk/" target="_blank">
+        <img src="perpus1.jpg" alt="Perpustakaan Oxford" style="width: 200px; height: auto;">
+      </a>
+      <audio controls>
+        <source src="perpus1.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+      <video width="320" height="240" controls>
+        <source src="perpus1.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+    <!-- Isi halaman Oxford -->
+  </section>
+  <!-- Halaman Perpustakaan Harvard -->
+  <section id="harvard" class="pastel">
+    <h2>Perpustakaan Harvard</h2>
+    <div>
+      <a href="https://library.harvard.edu/" target="_blank">
+        <img src="perpus2.jpeg" alt="Perpustakaan Harvard" style="width: 200px; height: auto;">
+      </a>
+      <audio controls>
+        <source src="perpus2.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+      <video width="320" height="240" controls>
+        <source src="perpus2.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+    <!-- Isi halaman Harvard -->
+  </section>
+  <!-- Halaman Perpustakaan Stanford -->
+  <section id="stanford" class="pastel">
+    <h2>Perpustakaan Stanford</h2>
+    <div>
+      <a href="https://library.stanford.edu/" target="_blank">
+        <img src="perpus3.jpeg" alt="Perpustakaan Stanford" style="width: 200px; height: auto;">
+      </a>
+      <audio controls>
+        <source src="perpus3.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+      <video width="320" height="240" controls>
+        <source src="perpus3.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+    <!-- Isi halaman Stanford -->
+  </section>
+  <!-- Halaman Utama -->
+  <section id="home" class="pastel">
+    <div class="col-4">
+      <h3>Tabel Bahan Buku</h3>
+      <table class="table table-bordered">
+        <tr>
+          <td>Judul buku:</td>
+          <td>The Architecture of Love</td>
+        </tr>
+        <tr>
+          <td>Penulis:</td>
+          <td>Ika Natassa</td>
+        </tr>
+        <tr>
+          <td>Tahun Terbit:</td>
+          <td>2016</td>
+        </tr>
+        <tr>
+          <td>Penerbit:</td>
+          <td>Gramedia</td>
+        </tr>
+      </table>
+    </div>
+    <div class="col-4">
+      <h3>Form Pemesanan Buku</h3>
+      <form>
+        <label for="nama">Nama:</label><br>
+        <input type="text" id="nama" name="nama"><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br>
+        <label for="alamat">Alamat:</label><br>
+        <textarea id="alamat" name="alamat"></textarea><br>
+        <label for="judul">Judul:</label><br>
+        <input type="text" id="judul" name="judul"><br>
+        <label for="penulis">Penulis:</label><br>
+        <input type="text" id="penulis" name="penulis"><br>
+        <label for="jumlah">Jumlah:</label><br>
+        <input type="number" id="jumlah" name="jumlah"><br><br>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+    <div class="col-4">
+      <h3>Form Perpanjangan Peminjaman Buku</h3>
+      <form>
+        <label for="judul-buku">Judul Buku:</label><br>
+        <input type="text" id="judul-buku" name="judul-buku"><br>
+        <label for="penulis-buku">Penulis:</label><br>
+        <input type="text" id="penulis-buku" name="penulis-buku"><br><br>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </section>
+  <!-- Halaman Penjelasan HTML dan CSS -->
+  <section id="about" class="pastel">
+    <h2>Tentang HTML dan CSS</h2>
+    <p>HyperText Markup Language (HTML) adalah bahasa markup yang digunakan untuk membuat struktur dan konten halaman web. HTML terdiri dari seragam tag atau elemen yang digunakan untuk menandai bagian dari halaman web, seperti heading, paragraph, image, dan hyperlink. Masing-masing tag memiliki fungsi yang berbeda dan memungkinkan browser untuk menyelesaikan konten dengan benar. Sebagai contoh, digunakan untuk menandai heading utama dari halaman dan tag untuk menandai paragraf teks. HTML juga mendukung atribut, yang dapat digunakan di dalam tag dan menyediakan informasi tambahan tentang elemen, seperti atribut src pada tag img untuk menunjukkan lokasi file gambar. Dengan HTML, pengembang dapat membuat struktur halaman web yang dapat dibaca dan diproses oleh browser. Cascading Style Sheets atau CSS adalah bahasa gaya yang digunakan untuk mengatur tampilan dan tata letak dari elemen-elemen yang telah ditandai oleh HTML. CSS memungkinkan pengembang web untuk mengontrol warna, font, ukuran, margin, padding, dan banyak properti lain dari elemen HTML mereka. CSS memungkinkan pengembang membuat desain HTML yang konsisten dan menarik. Sebagai contoh, pengembang dapat menggunakan CSS untuk memberi warna latar belakang, jenis huruf, dan efek animasi pada teks. Selain itu, CSS mendukung konsep pemisahan tampilan dari struktur, yang memungkinkan pengembang untuk mengubah penampilan situs secara terpusat tanpa mengubah struktur HTML dasarnya.</p>
+  </section>
+</div>
+<script>
+  // JavaScript untuk dropdown menu
+  document.addEventListener("DOMContentLoaded", function(event) {
+    var dropdown = document.getElementsByClassName("dropdown");
+    var i;
+    for (i = 0; i < dropdown.length; i++) {
+      dropdown[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var dropdownContent = this.children[1];
+        if (dropdownContent.style.display === "block") {
+          dropdownContent.style.display = "none";
+        } else {
+          dropdownContent.style.display = "block";
+        }
+      });
+    }
+  });
+</script>
+</body>
+</html>
